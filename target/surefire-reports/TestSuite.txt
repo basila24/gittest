@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 40.969 sec <<< FAILURE! - in TestSuite
+runScenario(runner.TestRunner)  Time elapsed: 31.163 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: Hooks must declare 0 or 1 arguments. public void steps.Hook.TearDownTest(io.cucumber.core.api.Scenario,org.testng.ITestResult) throws java.io.IOException
+
